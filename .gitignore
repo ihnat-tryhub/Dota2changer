@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Database (user data, regenerated on launch)
+data/skins.db
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Test artifacts
+.pytest_cache/
+htmlcov/
