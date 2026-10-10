@@ -61,7 +61,7 @@ class TestCatalog:
     def test_skin_has_four_fields(self):
         store = _make_storage()
         skin = store.skins()[0]
-        assert len(skin) == 4, "Каждый скин = (id, name, hero, category)"
+        assert len(skin) in (4, 5), "Каждый скин содержит id, name, hero, category, [icon]"
         store.close()
 
     def test_search_by_hero(self):

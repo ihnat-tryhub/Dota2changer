@@ -11,8 +11,11 @@ __pycache__/
 .vscode/
 *.swp
 
-# Database (user data, regenerated on launch)
+# Database and raw dumps (regenerated on launch)
 data/skins.db
+data/*.txt
+data/backups/
+data/icon_cache/
 
 # OS
 Thumbs.db
